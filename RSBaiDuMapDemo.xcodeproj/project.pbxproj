@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34CD12151F146EAB00F136BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD12141F146EAB00F136BC /* main.m */; };
+		34CD12181F146EAB00F136BC /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34CD12171F146EAB00F136BC /* AppDelegate.mm */; };
+		34CD121B1F146EAB00F136BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD121A1F146EAB00F136BC /* ViewController.m */; };
+		34CD121E1F146EAB00F136BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CD121C1F146EAB00F136BC /* Main.storyboard */; };
+		34CD12201F146EAB00F136BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CD121F1F146EAB00F136BC /* Assets.xcassets */; };
+		34CD12231F146EAB00F136BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CD12211F146EAB00F136BC /* LaunchScreen.storyboard */; };
+		34CD122E1F146EAC00F136BC /* RSBaiDuMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD122D1F146EAC00F136BC /* RSBaiDuMapDemoTests.m */; };
+		34CD12391F146EAC00F136BC /* RSBaiDuMapDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD12381F146EAC00F136BC /* RSBaiDuMapDemoUITests.m */; };
+		34CD12481F14752300F136BC /* SimpleMapViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34CD12471F14752300F136BC /* SimpleMapViewController.mm */; };
+		34CD13951F15D2AD00F136BC /* OpenBaiduTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13941F15D2AD00F136BC /* OpenBaiduTableViewController.m */; };
+		34CD13981F15F91200F136BC /* RouteSearchDemoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13971F15F91200F136BC /* RouteSearchDemoViewController.mm */; };
+		34CD139E1F15FA6600F136BC /* arrow_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CD139B1F15FA6600F136BC /* arrow_up@2x.png */; };
+		34CD139F1F15FA6600F136BC /* RSDropdownControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD139D1F15FA6600F136BC /* RSDropdownControls.m */; };
+		34CD13A21F16038000F136BC /* RouteAnnotation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13A11F16038000F136BC /* RouteAnnotation.mm */; };
+		34CD13A61F1603AD00F136BC /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13A51F1603AD00F136BC /* UIImage+Rotate.m */; };
+		34CD13A91F160A5100F136BC /* SportPathDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13A81F160A5100F136BC /* SportPathDemoViewController.m */; };
+		34CD13AC1F160AB400F136BC /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13AB1F160AB400F136BC /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		34CD13AF1F160E5100F136BC /* sport_path.json in Resources */ = {isa = PBXBuildFile; fileRef = 34CD13AE1F160E5100F136BC /* sport_path.json */; };
+		34CD13B31F16110300F136BC /* sportarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CD13B21F16110300F136BC /* sportarrow.png */; };
+		34CD13B61F1612B100F136BC /* ClusterDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13B51F1612B100F136BC /* ClusterDemoViewController.m */; };
+		34CD13C61F16137B00F136BC /* BMKClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13BF1F16137A00F136BC /* BMKClusterAlgorithm.m */; };
+		34CD13C71F16137B00F136BC /* BMKClusterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13C11F16137B00F136BC /* BMKClusterItem.m */; };
+		34CD13C81F16137B00F136BC /* BMKClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13C31F16137B00F136BC /* BMKClusterManager.m */; };
+		34CD13C91F16137B00F136BC /* BMKClusterQuadtree.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13C51F16137B00F136BC /* BMKClusterQuadtree.m */; };
+		74FC58589ABEA16F07EFE0EF /* libPods-RSBaiDuMapDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7D27C225B63E1A90A10876 /* libPods-RSBaiDuMapDemoTests.a */; };
+		B8E10F7A04285806A7219BBC /* libPods-RSBaiDuMapDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 564F8B82409049E5266B0E5A /* libPods-RSBaiDuMapDemoUITests.a */; };
+		F9C0E7FF580CFEEDC7ADCEB1 /* libPods-RSBaiDuMapDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A5958CF2493A1A4A3FB5DE /* libPods-RSBaiDuMapDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34CD122A1F146EAC00F136BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34CD12081F146EAB00F136BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CD120F1F146EAB00F136BC;
+			remoteInfo = RSBaiDuMapDemo;
+		};
+		34CD12351F146EAC00F136BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34CD12081F146EAB00F136BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CD120F1F146EAB00F136BC;
+			remoteInfo = RSBaiDuMapDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10E0AE308CD6D97415BD13B8 /* Pods-RSBaiDuMapDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBaiDuMapDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSBaiDuMapDemoTests/Pods-RSBaiDuMapDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34CD12101F146EAB00F136BC /* RSBaiDuMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSBaiDuMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CD12141F146EAB00F136BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34CD12161F146EAB00F136BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34CD12171F146EAB00F136BC /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		34CD12191F146EAB00F136BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34CD121A1F146EAB00F136BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34CD121D1F146EAB00F136BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34CD121F1F146EAB00F136BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34CD12221F146EAB00F136BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34CD12241F146EAB00F136BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CD12291F146EAC00F136BC /* RSBaiDuMapDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSBaiDuMapDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CD122D1F146EAC00F136BC /* RSBaiDuMapDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSBaiDuMapDemoTests.m; sourceTree = "<group>"; };
+		34CD122F1F146EAC00F136BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CD12341F146EAC00F136BC /* RSBaiDuMapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSBaiDuMapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CD12381F146EAC00F136BC /* RSBaiDuMapDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSBaiDuMapDemoUITests.m; sourceTree = "<group>"; };
+		34CD123A1F146EAC00F136BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CD12461F14752300F136BC /* SimpleMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMapViewController.h; sourceTree = "<group>"; };
+		34CD12471F14752300F136BC /* SimpleMapViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SimpleMapViewController.mm; sourceTree = "<group>"; };
+		34CD13931F15D2AD00F136BC /* OpenBaiduTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenBaiduTableViewController.h; sourceTree = "<group>"; };
+		34CD13941F15D2AD00F136BC /* OpenBaiduTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenBaiduTableViewController.m; sourceTree = "<group>"; };
+		34CD13961F15F91200F136BC /* RouteSearchDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteSearchDemoViewController.h; sourceTree = "<group>"; };
+		34CD13971F15F91200F136BC /* RouteSearchDemoViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RouteSearchDemoViewController.mm; sourceTree = "<group>"; };
+		34CD139B1F15FA6600F136BC /* arrow_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_up@2x.png"; sourceTree = "<group>"; };
+		34CD139C1F15FA6600F136BC /* RSDropdownControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDropdownControls.h; sourceTree = "<group>"; };
+		34CD139D1F15FA6600F136BC /* RSDropdownControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDropdownControls.m; sourceTree = "<group>"; };
+		34CD13A01F16038000F136BC /* RouteAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteAnnotation.h; sourceTree = "<group>"; };
+		34CD13A11F16038000F136BC /* RouteAnnotation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RouteAnnotation.mm; sourceTree = "<group>"; };
+		34CD13A41F1603AD00F136BC /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		34CD13A51F1603AD00F136BC /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		34CD13A71F160A5100F136BC /* SportPathDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportPathDemoViewController.h; sourceTree = "<group>"; };
+		34CD13A81F160A5100F136BC /* SportPathDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportPathDemoViewController.m; sourceTree = "<group>"; };
+		34CD13AA1F160AB400F136BC /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		34CD13AB1F160AB400F136BC /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		34CD13AE1F160E5100F136BC /* sport_path.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sport_path.json; sourceTree = "<group>"; };
+		34CD13B21F16110300F136BC /* sportarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sportarrow.png; sourceTree = "<group>"; };
+		34CD13B41F1612B100F136BC /* ClusterDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClusterDemoViewController.h; sourceTree = "<group>"; };
+		34CD13B51F1612B100F136BC /* ClusterDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClusterDemoViewController.m; sourceTree = "<group>"; };
+		34CD13BE1F16137A00F136BC /* BMKClusterAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKClusterAlgorithm.h; sourceTree = "<group>"; };
+		34CD13BF1F16137A00F136BC /* BMKClusterAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKClusterAlgorithm.m; sourceTree = "<group>"; };
+		34CD13C01F16137B00F136BC /* BMKClusterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKClusterItem.h; sourceTree = "<group>"; };
+		34CD13C11F16137B00F136BC /* BMKClusterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKClusterItem.m; sourceTree = "<group>"; };
+		34CD13C21F16137B00F136BC /* BMKClusterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKClusterManager.h; sourceTree = "<group>"; };
+		34CD13C31F16137B00F136BC /* BMKClusterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKClusterManager.m; sourceTree = "<group>"; };
+		34CD13C41F16137B00F136BC /* BMKClusterQuadtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKClusterQuadtree.h; sourceTree = "<group>"; };
+		34CD13C51F16137B00F136BC /* BMKClusterQuadtree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKClusterQuadtree.m; sourceTree = "<group>"; };
+		564F8B82409049E5266B0E5A /* libPods-RSBaiDuMapDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSBaiDuMapDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F696F853070D1ECFE548CD /* Pods-RSBaiDuMapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBaiDuMapDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSBaiDuMapDemo/Pods-RSBaiDuMapDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8B7D27C225B63E1A90A10876 /* libPods-RSBaiDuMapDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSBaiDuMapDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAEDC796EC56322D03694F1 /* Pods-RSBaiDuMapDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBaiDuMapDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSBaiDuMapDemoUITests/Pods-RSBaiDuMapDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A230EF7C09147C36FB609AF1 /* Pods-RSBaiDuMapDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBaiDuMapDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSBaiDuMapDemoUITests/Pods-RSBaiDuMapDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3D1D1766995201702D3E62E /* Pods-RSBaiDuMapDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBaiDuMapDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSBaiDuMapDemoTests/Pods-RSBaiDuMapDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4A5958CF2493A1A4A3FB5DE /* libPods-RSBaiDuMapDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSBaiDuMapDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E836DADEFFAA83B0EACCBE91 /* Pods-RSBaiDuMapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSBaiDuMapDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSBaiDuMapDemo/Pods-RSBaiDuMapDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34CD120D1F146EAB00F136BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C0E7FF580CFEEDC7ADCEB1 /* libPods-RSBaiDuMapDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CD12261F146EAC00F136BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FC58589ABEA16F07EFE0EF /* libPods-RSBaiDuMapDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CD12311F146EAC00F136BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E10F7A04285806A7219BBC /* libPods-RSBaiDuMapDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FCD92AE35167FBB8183C649 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69F696F853070D1ECFE548CD /* Pods-RSBaiDuMapDemo.debug.xcconfig */,
+				E836DADEFFAA83B0EACCBE91 /* Pods-RSBaiDuMapDemo.release.xcconfig */,
+				10E0AE308CD6D97415BD13B8 /* Pods-RSBaiDuMapDemoTests.debug.xcconfig */,
+				B3D1D1766995201702D3E62E /* Pods-RSBaiDuMapDemoTests.release.xcconfig */,
+				A230EF7C09147C36FB609AF1 /* Pods-RSBaiDuMapDemoUITests.debug.xcconfig */,
+				8CAEDC796EC56322D03694F1 /* Pods-RSBaiDuMapDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1A3470096807A8D1CF234F1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4A5958CF2493A1A4A3FB5DE /* libPods-RSBaiDuMapDemo.a */,
+				8B7D27C225B63E1A90A10876 /* libPods-RSBaiDuMapDemoTests.a */,
+				564F8B82409049E5266B0E5A /* libPods-RSBaiDuMapDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34CD12071F146EAB00F136BC = {
+			isa = PBXGroup;
+			children = (
+				34CD12121F146EAB00F136BC /* RSBaiDuMapDemo */,
+				34CD122C1F146EAC00F136BC /* RSBaiDuMapDemoTests */,
+				34CD12371F146EAC00F136BC /* RSBaiDuMapDemoUITests */,
+				34CD12111F146EAB00F136BC /* Products */,
+				0FCD92AE35167FBB8183C649 /* Pods */,
+				1A3470096807A8D1CF234F1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34CD12111F146EAB00F136BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34CD12101F146EAB00F136BC /* RSBaiDuMapDemo.app */,
+				34CD12291F146EAC00F136BC /* RSBaiDuMapDemoTests.xctest */,
+				34CD12341F146EAC00F136BC /* RSBaiDuMapDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34CD12121F146EAB00F136BC /* RSBaiDuMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				34CD13991F15FA6600F136BC /* RSDropdownControls */,
+				34CD12161F146EAB00F136BC /* AppDelegate.h */,
+				34CD12171F146EAB00F136BC /* AppDelegate.mm */,
+				34CD12191F146EAB00F136BC /* ViewController.h */,
+				34CD121A1F146EAB00F136BC /* ViewController.m */,
+				34CD12461F14752300F136BC /* SimpleMapViewController.h */,
+				34CD12471F14752300F136BC /* SimpleMapViewController.mm */,
+				34CD13931F15D2AD00F136BC /* OpenBaiduTableViewController.h */,
+				34CD13941F15D2AD00F136BC /* OpenBaiduTableViewController.m */,
+				34CD13961F15F91200F136BC /* RouteSearchDemoViewController.h */,
+				34CD13971F15F91200F136BC /* RouteSearchDemoViewController.mm */,
+				34CD13A01F16038000F136BC /* RouteAnnotation.h */,
+				34CD13A11F16038000F136BC /* RouteAnnotation.mm */,
+				34CD13A71F160A5100F136BC /* SportPathDemoViewController.h */,
+				34CD13A81F160A5100F136BC /* SportPathDemoViewController.m */,
+				34CD13B41F1612B100F136BC /* ClusterDemoViewController.h */,
+				34CD13B51F1612B100F136BC /* ClusterDemoViewController.m */,
+				34CD13BD1F16137A00F136BC /* Cluster */,
+				34CD13AD1F160E4800F136BC /* Resources */,
+				34CD13A31F1603A700F136BC /* Tools */,
+				34CD121C1F146EAB00F136BC /* Main.storyboard */,
+				34CD121F1F146EAB00F136BC /* Assets.xcassets */,
+				34CD12211F146EAB00F136BC /* LaunchScreen.storyboard */,
+				34CD12241F146EAB00F136BC /* Info.plist */,
+				34CD12131F146EAB00F136BC /* Supporting Files */,
+			);
+			path = RSBaiDuMapDemo;
+			sourceTree = "<group>";
+		};
+		34CD12131F146EAB00F136BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34CD12141F146EAB00F136BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34CD122C1F146EAC00F136BC /* RSBaiDuMapDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				34CD122D1F146EAC00F136BC /* RSBaiDuMapDemoTests.m */,
+				34CD122F1F146EAC00F136BC /* Info.plist */,
+			);
+			path = RSBaiDuMapDemoTests;
+			sourceTree = "<group>";
+		};
+		34CD12371F146EAC00F136BC /* RSBaiDuMapDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34CD12381F146EAC00F136BC /* RSBaiDuMapDemoUITests.m */,
+				34CD123A1F146EAC00F136BC /* Info.plist */,
+			);
+			path = RSBaiDuMapDemoUITests;
+			sourceTree = "<group>";
+		};
+		34CD13991F15FA6600F136BC /* RSDropdownControls */ = {
+			isa = PBXGroup;
+			children = (
+				34CD139A1F15FA6600F136BC /* Resources */,
+				34CD139C1F15FA6600F136BC /* RSDropdownControls.h */,
+				34CD139D1F15FA6600F136BC /* RSDropdownControls.m */,
+			);
+			path = RSDropdownControls;
+			sourceTree = "<group>";
+		};
+		34CD139A1F15FA6600F136BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34CD139B1F15FA6600F136BC /* arrow_up@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34CD13A31F1603A700F136BC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				34CD13AA1F160AB400F136BC /* JSONKit.h */,
+				34CD13AB1F160AB400F136BC /* JSONKit.m */,
+				34CD13A41F1603AD00F136BC /* UIImage+Rotate.h */,
+				34CD13A51F1603AD00F136BC /* UIImage+Rotate.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		34CD13AD1F160E4800F136BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34CD13B21F16110300F136BC /* sportarrow.png */,
+				34CD13AE1F160E5100F136BC /* sport_path.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34CD13BD1F16137A00F136BC /* Cluster */ = {
+			isa = PBXGroup;
+			children = (
+				34CD13BE1F16137A00F136BC /* BMKClusterAlgorithm.h */,
+				34CD13BF1F16137A00F136BC /* BMKClusterAlgorithm.m */,
+				34CD13C01F16137B00F136BC /* BMKClusterItem.h */,
+				34CD13C11F16137B00F136BC /* BMKClusterItem.m */,
+				34CD13C21F16137B00F136BC /* BMKClusterManager.h */,
+				34CD13C31F16137B00F136BC /* BMKClusterManager.m */,
+				34CD13C41F16137B00F136BC /* BMKClusterQuadtree.h */,
+				34CD13C51F16137B00F136BC /* BMKClusterQuadtree.m */,
+			);
+			path = Cluster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34CD120F1F146EAB00F136BC /* RSBaiDuMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CD123D1F146EAC00F136BC /* Build configuration list for PBXNativeTarget "RSBaiDuMapDemo" */;
+			buildPhases = (
+				0FB37E85B7647DA793449EAB /* [CP] Check Pods Manifest.lock */,
+				34CD120C1F146EAB00F136BC /* Sources */,
+				34CD120D1F146EAB00F136BC /* Frameworks */,
+				34CD120E1F146EAB00F136BC /* Resources */,
+				61B711A94A00E1AF609B1EC8 /* [CP] Embed Pods Frameworks */,
+				0C4BBBDF188A081FE19AA200 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSBaiDuMapDemo;
+			productName = RSBaiDuMapDemo;
+			productReference = 34CD12101F146EAB00F136BC /* RSBaiDuMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34CD12281F146EAC00F136BC /* RSBaiDuMapDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CD12401F146EAC00F136BC /* Build configuration list for PBXNativeTarget "RSBaiDuMapDemoTests" */;
+			buildPhases = (
+				98831FAD5EED04806BD78E2A /* [CP] Check Pods Manifest.lock */,
+				34CD12251F146EAC00F136BC /* Sources */,
+				34CD12261F146EAC00F136BC /* Frameworks */,
+				34CD12271F146EAC00F136BC /* Resources */,
+				658976A5D84EF37419DC7FCB /* [CP] Embed Pods Frameworks */,
+				3E99F85DA8748D56BCB33949 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34CD122B1F146EAC00F136BC /* PBXTargetDependency */,
+			);
+			name = RSBaiDuMapDemoTests;
+			productName = RSBaiDuMapDemoTests;
+			productReference = 34CD12291F146EAC00F136BC /* RSBaiDuMapDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34CD12331F146EAC00F136BC /* RSBaiDuMapDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CD12431F146EAC00F136BC /* Build configuration list for PBXNativeTarget "RSBaiDuMapDemoUITests" */;
+			buildPhases = (
+				DCB75A01562A335A3E2126D0 /* [CP] Check Pods Manifest.lock */,
+				34CD12301F146EAC00F136BC /* Sources */,
+				34CD12311F146EAC00F136BC /* Frameworks */,
+				34CD12321F146EAC00F136BC /* Resources */,
+				B0FCCCF4BDED9F6E7C95B2EF /* [CP] Embed Pods Frameworks */,
+				B255F729C339380DF0FF4256 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34CD12361F146EAC00F136BC /* PBXTargetDependency */,
+			);
+			name = RSBaiDuMapDemoUITests;
+			productName = RSBaiDuMapDemoUITests;
+			productReference = 34CD12341F146EAC00F136BC /* RSBaiDuMapDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34CD12081F146EAB00F136BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					34CD120F1F146EAB00F136BC = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					34CD12281F146EAC00F136BC = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34CD120F1F146EAB00F136BC;
+					};
+					34CD12331F146EAC00F136BC = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34CD120F1F146EAB00F136BC;
+					};
+				};
+			};
+			buildConfigurationList = 34CD120B1F146EAB00F136BC /* Build configuration list for PBXProject "RSBaiDuMapDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34CD12071F146EAB00F136BC;
+			productRefGroup = 34CD12111F146EAB00F136BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CD120F1F146EAB00F136BC /* RSBaiDuMapDemo */,
+				34CD12281F146EAC00F136BC /* RSBaiDuMapDemoTests */,
+				34CD12331F146EAC00F136BC /* RSBaiDuMapDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34CD120E1F146EAB00F136BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CD13B31F16110300F136BC /* sportarrow.png in Resources */,
+				34CD13AF1F160E5100F136BC /* sport_path.json in Resources */,
+				34CD12231F146EAB00F136BC /* LaunchScreen.storyboard in Resources */,
+				34CD12201F146EAB00F136BC /* Assets.xcassets in Resources */,
+				34CD121E1F146EAB00F136BC /* Main.storyboard in Resources */,
+				34CD139E1F15FA6600F136BC /* arrow_up@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CD12271F146EAC00F136BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CD12321F146EAC00F136BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C4BBBDF188A081FE19AA200 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSBaiDuMapDemo/Pods-RSBaiDuMapDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FB37E85B7647DA793449EAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E99F85DA8748D56BCB33949 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSBaiDuMapDemoTests/Pods-RSBaiDuMapDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61B711A94A00E1AF609B1EC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSBaiDuMapDemo/Pods-RSBaiDuMapDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		658976A5D84EF37419DC7FCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSBaiDuMapDemoTests/Pods-RSBaiDuMapDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98831FAD5EED04806BD78E2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0FCCCF4BDED9F6E7C95B2EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSBaiDuMapDemoUITests/Pods-RSBaiDuMapDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B255F729C339380DF0FF4256 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSBaiDuMapDemoUITests/Pods-RSBaiDuMapDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCB75A01562A335A3E2126D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34CD120C1F146EAB00F136BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CD13B61F1612B100F136BC /* ClusterDemoViewController.m in Sources */,
+				34CD121B1F146EAB00F136BC /* ViewController.m in Sources */,
+				34CD13C81F16137B00F136BC /* BMKClusterManager.m in Sources */,
+				34CD13C71F16137B00F136BC /* BMKClusterItem.m in Sources */,
+				34CD13981F15F91200F136BC /* RouteSearchDemoViewController.mm in Sources */,
+				34CD139F1F15FA6600F136BC /* RSDropdownControls.m in Sources */,
+				34CD13C91F16137B00F136BC /* BMKClusterQuadtree.m in Sources */,
+				34CD12181F146EAB00F136BC /* AppDelegate.mm in Sources */,
+				34CD13A21F16038000F136BC /* RouteAnnotation.mm in Sources */,
+				34CD13951F15D2AD00F136BC /* OpenBaiduTableViewController.m in Sources */,
+				34CD12151F146EAB00F136BC /* main.m in Sources */,
+				34CD13A91F160A5100F136BC /* SportPathDemoViewController.m in Sources */,
+				34CD13C61F16137B00F136BC /* BMKClusterAlgorithm.m in Sources */,
+				34CD12481F14752300F136BC /* SimpleMapViewController.mm in Sources */,
+				34CD13A61F1603AD00F136BC /* UIImage+Rotate.m in Sources */,
+				34CD13AC1F160AB400F136BC /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CD12251F146EAC00F136BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CD122E1F146EAC00F136BC /* RSBaiDuMapDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CD12301F146EAC00F136BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CD12391F146EAC00F136BC /* RSBaiDuMapDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34CD122B1F146EAC00F136BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34CD120F1F146EAB00F136BC /* RSBaiDuMapDemo */;
+			targetProxy = 34CD122A1F146EAC00F136BC /* PBXContainerItemProxy */;
+		};
+		34CD12361F146EAC00F136BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34CD120F1F146EAB00F136BC /* RSBaiDuMapDemo */;
+			targetProxy = 34CD12351F146EAC00F136BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34CD121C1F146EAB00F136BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34CD121D1F146EAB00F136BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34CD12211F146EAB00F136BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34CD12221F146EAB00F136BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34CD123B1F146EAC00F136BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34CD123C1F146EAC00F136BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34CD123E1F146EAC00F136BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F696F853070D1ECFE548CD /* Pods-RSBaiDuMapDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSBaiDuMapDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSBaiDuMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34CD123F1F146EAC00F136BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E836DADEFFAA83B0EACCBE91 /* Pods-RSBaiDuMapDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSBaiDuMapDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSBaiDuMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34CD12411F146EAC00F136BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E0AE308CD6D97415BD13B8 /* Pods-RSBaiDuMapDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSBaiDuMapDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSBaiDuMapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSBaiDuMapDemo.app/RSBaiDuMapDemo";
+			};
+			name = Debug;
+		};
+		34CD12421F146EAC00F136BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D1D1766995201702D3E62E /* Pods-RSBaiDuMapDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSBaiDuMapDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSBaiDuMapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSBaiDuMapDemo.app/RSBaiDuMapDemo";
+			};
+			name = Release;
+		};
+		34CD12441F146EAC00F136BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A230EF7C09147C36FB609AF1 /* Pods-RSBaiDuMapDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = RSBaiDuMapDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSBaiDuMapDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSBaiDuMapDemo;
+			};
+			name = Debug;
+		};
+		34CD12451F146EAC00F136BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CAEDC796EC56322D03694F1 /* Pods-RSBaiDuMapDemoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = RSBaiDuMapDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSBaiDuMapDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSBaiDuMapDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34CD120B1F146EAB00F136BC /* Build configuration list for PBXProject "RSBaiDuMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CD123B1F146EAC00F136BC /* Debug */,
+				34CD123C1F146EAC00F136BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CD123D1F146EAC00F136BC /* Build configuration list for PBXNativeTarget "RSBaiDuMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CD123E1F146EAC00F136BC /* Debug */,
+				34CD123F1F146EAC00F136BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CD12401F146EAC00F136BC /* Build configuration list for PBXNativeTarget "RSBaiDuMapDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CD12411F146EAC00F136BC /* Debug */,
+				34CD12421F146EAC00F136BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CD12431F146EAC00F136BC /* Build configuration list for PBXNativeTarget "RSBaiDuMapDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CD12441F146EAC00F136BC /* Debug */,
+				34CD12451F146EAC00F136BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34CD12081F146EAB00F136BC /* Project object */;
+}
