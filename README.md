@@ -47,14 +47,12 @@ pods安装没有问题就可以进行调试了，我这里用的授权Key是tGli
 ```
 
 6、管理地图的生命周期：自2.0.0起，BMKMapView新增viewWillAppear、viewWillDisappear方法来控制BMKMapView的生命周期，并且在一个时刻只能有一个BMKMapView接受回调消息，因此在使用BMKMapView的viewController中需要在viewWillAppear、viewWillDisappear方法中调用BMKMapView的对应的方法，并处理delegate，代码如下：
-```
--(void)viewWillAppear:(BOOL)animated      
-{      
+```Objective-C
+- (void)viewWillAppear:(BOOL)animated{      
     [_mapView viewWillAppear];      
     _mapView.delegate = self; // 此处记得不用的时候需要置nil，否则影响内存的释放      
 }      
--(void)viewWillDisappear:(BOOL)animated      
-{      
+- (void)viewWillDisappear:(BOOL)animated{      
         [_mapView viewWillDisappear];      
       _mapView.delegate = nil; // 不用时，置nil      
 }
@@ -78,7 +76,7 @@ NSLocationAlwaysUsageDescription ，允许永久使用GPS的描述
 11、注意BMKManager对象的生命周期管理，在使用地图SDK期间不能释放该对象，尤其在arc情况下注意避免提前被自动释放，否则，该对象一旦被释放，网络模块将不可用，地图无法加载，检索失败。
 
 12、app在前后台切换时，需要使用下面的代码停止地图的渲染和openGL的绘制（V2.10.0后不需要再调用）：
-```
+```Objective-C
 - (void)applicationWillResignActive:(UIApplication *)application {
     [BMKMapView willBackGround];//当应用即将后台时调用，停止一切调用opengl相关的操作
 }
