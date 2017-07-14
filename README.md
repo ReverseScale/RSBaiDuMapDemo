@@ -10,6 +10,11 @@
 | 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-13/15419776.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-13/86541690.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-13/31815488.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-13/58075230.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-13/87902806.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-13/46447791.jpg) |
 | 描述 | 通过 storyboard 搭建基本框架 | 基本展示功能 | 常用跳转功能 | 基本导航功能 | 动态轨迹动画 | 图层和打点功能 |
 
+## Advantage 框架的优势
+* 1.文件少，代码简洁，功能新颖
+* 2.功能整合度高，体验好，结构精
+* 3.没有对除BaiduMapSDK外的其他库依赖
+* 4.具备较高自定义性
 
 ## Requirements 要求
 * iOS 7+
