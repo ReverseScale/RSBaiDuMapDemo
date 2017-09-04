@@ -1,7 +1,9 @@
 # RSBaiDuMapDemo
 
-![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Objective--C-orange.svg) ![](https://img.shields.io/badge/download-2.8MB-brightgreen.svg
-) ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
+![](https://img.shields.io/badge/platform-iOS-red.svg) 
+![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
+![](https://img.shields.io/badge/download-2.8MB-brightgreen.svg) 
+![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
 越来越多的移动应用都需要 Map + GPS 功能来辅助开展业务，例如时下火热的共享单车、充电宝、雨伞..,而大陆的地图服务主要集中在百度地图、高德地图、腾讯地图三大平台，其中又以百度地图的接入量最高，但是百度地图 SDK 的 Demo 又很乱，所以在闲暇时间我根据自己理解的主要功能，进行了些整理。如果有一定开发经验的朋友不喜官方 SDK Demo 的赘述，可以通过此 Demo 了解百度地图 SDK 的使用方法。
 
