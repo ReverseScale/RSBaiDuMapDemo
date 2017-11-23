@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F8DC175922772507AFACB03 /* Pods_SwiftBaiduMapDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E78AEAFE8A55D6A020FD4B8 /* Pods_SwiftBaiduMapDemoUITests.framework */; };
+		34B488011FC695BE0039A540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B488001FC695BE0039A540 /* AppDelegate.swift */; };
+		34B488031FC695BE0039A540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B488021FC695BE0039A540 /* ViewController.swift */; };
+		34B488061FC695BE0039A540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B488041FC695BE0039A540 /* Main.storyboard */; };
+		34B488081FC695BE0039A540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B488071FC695BE0039A540 /* Assets.xcassets */; };
+		34B4880B1FC695BE0039A540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B488091FC695BE0039A540 /* LaunchScreen.storyboard */; };
+		34B488161FC695BE0039A540 /* SwiftBaiduMapDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B488151FC695BE0039A540 /* SwiftBaiduMapDemoTests.swift */; };
+		34B488211FC695BE0039A540 /* SwiftBaiduMapDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B488201FC695BE0039A540 /* SwiftBaiduMapDemoUITests.swift */; };
+		34B488301FC69BE40039A540 /* SimpleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B4882F1FC69BE40039A540 /* SimpleMapViewController.swift */; };
+		5CE2E63072C26635414EE26F /* Pods_SwiftBaiduMapDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7641FC40ABA10BE806343DEA /* Pods_SwiftBaiduMapDemoTests.framework */; };
+		E3BA0866134050A7290D1969 /* Pods_SwiftBaiduMapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58594EA8D67DBCA7C8CD8455 /* Pods_SwiftBaiduMapDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34B488121FC695BE0039A540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B487F51FC695BE0039A540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B487FC1FC695BE0039A540;
+			remoteInfo = SwiftBaiduMapDemo;
+		};
+		34B4881D1FC695BE0039A540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B487F51FC695BE0039A540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B487FC1FC695BE0039A540;
+			remoteInfo = SwiftBaiduMapDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C8D65AA0D10DA6B7B3E01C1 /* Pods-SwiftBaiduMapDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaiduMapDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaiduMapDemoTests/Pods-SwiftBaiduMapDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B6C500CE44E3C79C4D75BE3 /* Pods-SwiftBaiduMapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaiduMapDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaiduMapDemo/Pods-SwiftBaiduMapDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		34B487FD1FC695BE0039A540 /* SwiftBaiduMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBaiduMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B488001FC695BE0039A540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34B488021FC695BE0039A540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34B488051FC695BE0039A540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34B488071FC695BE0039A540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34B4880A1FC695BE0039A540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34B4880C1FC695BE0039A540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B488111FC695BE0039A540 /* SwiftBaiduMapDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBaiduMapDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B488151FC695BE0039A540 /* SwiftBaiduMapDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBaiduMapDemoTests.swift; sourceTree = "<group>"; };
+		34B488171FC695BE0039A540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B4881C1FC695BE0039A540 /* SwiftBaiduMapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBaiduMapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B488201FC695BE0039A540 /* SwiftBaiduMapDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBaiduMapDemoUITests.swift; sourceTree = "<group>"; };
+		34B488221FC695BE0039A540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B4882E1FC698C30039A540 /* SwiftBaiduMapDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftBaiduMapDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		34B4882F1FC69BE40039A540 /* SimpleMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMapViewController.swift; sourceTree = "<group>"; };
+		47D0F669B74479B4B7C58638 /* Pods-SwiftBaiduMapDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaiduMapDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaiduMapDemoUITests/Pods-SwiftBaiduMapDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58594EA8D67DBCA7C8CD8455 /* Pods_SwiftBaiduMapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBaiduMapDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7641FC40ABA10BE806343DEA /* Pods_SwiftBaiduMapDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBaiduMapDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD9CBD8B7612BBA020F1BBB /* Pods-SwiftBaiduMapDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaiduMapDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaiduMapDemoTests/Pods-SwiftBaiduMapDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E78AEAFE8A55D6A020FD4B8 /* Pods_SwiftBaiduMapDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftBaiduMapDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F47AB0F9DFFAEDCB45A6712 /* Pods-SwiftBaiduMapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaiduMapDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaiduMapDemo/Pods-SwiftBaiduMapDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E7B519B7BA4DFA81F7802051 /* Pods-SwiftBaiduMapDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBaiduMapDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBaiduMapDemoUITests/Pods-SwiftBaiduMapDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34B487FA1FC695BE0039A540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3BA0866134050A7290D1969 /* Pods_SwiftBaiduMapDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B4880E1FC695BE0039A540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE2E63072C26635414EE26F /* Pods_SwiftBaiduMapDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B488191FC695BE0039A540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8DC175922772507AFACB03 /* Pods_SwiftBaiduMapDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34B487F41FC695BE0039A540 = {
+			isa = PBXGroup;
+			children = (
+				34B487FF1FC695BE0039A540 /* SwiftBaiduMapDemo */,
+				34B488141FC695BE0039A540 /* SwiftBaiduMapDemoTests */,
+				34B4881F1FC695BE0039A540 /* SwiftBaiduMapDemoUITests */,
+				34B487FE1FC695BE0039A540 /* Products */,
+				F830B9B2EB49531F7AA2382E /* Pods */,
+				37630C0B7C55E6D7D4438EB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34B487FE1FC695BE0039A540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34B487FD1FC695BE0039A540 /* SwiftBaiduMapDemo.app */,
+				34B488111FC695BE0039A540 /* SwiftBaiduMapDemoTests.xctest */,
+				34B4881C1FC695BE0039A540 /* SwiftBaiduMapDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34B487FF1FC695BE0039A540 /* SwiftBaiduMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				34B488001FC695BE0039A540 /* AppDelegate.swift */,
+				34B488021FC695BE0039A540 /* ViewController.swift */,
+				34B4882F1FC69BE40039A540 /* SimpleMapViewController.swift */,
+				34B488041FC695BE0039A540 /* Main.storyboard */,
+				34B488071FC695BE0039A540 /* Assets.xcassets */,
+				34B488091FC695BE0039A540 /* LaunchScreen.storyboard */,
+				34B4880C1FC695BE0039A540 /* Info.plist */,
+				34B4882E1FC698C30039A540 /* SwiftBaiduMapDemo-Bridging-Header.h */,
+			);
+			path = SwiftBaiduMapDemo;
+			sourceTree = "<group>";
+		};
+		34B488141FC695BE0039A540 /* SwiftBaiduMapDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				34B488151FC695BE0039A540 /* SwiftBaiduMapDemoTests.swift */,
+				34B488171FC695BE0039A540 /* Info.plist */,
+			);
+			path = SwiftBaiduMapDemoTests;
+			sourceTree = "<group>";
+		};
+		34B4881F1FC695BE0039A540 /* SwiftBaiduMapDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34B488201FC695BE0039A540 /* SwiftBaiduMapDemoUITests.swift */,
+				34B488221FC695BE0039A540 /* Info.plist */,
+			);
+			path = SwiftBaiduMapDemoUITests;
+			sourceTree = "<group>";
+		};
+		37630C0B7C55E6D7D4438EB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58594EA8D67DBCA7C8CD8455 /* Pods_SwiftBaiduMapDemo.framework */,
+				7641FC40ABA10BE806343DEA /* Pods_SwiftBaiduMapDemoTests.framework */,
+				7E78AEAFE8A55D6A020FD4B8 /* Pods_SwiftBaiduMapDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F830B9B2EB49531F7AA2382E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B6C500CE44E3C79C4D75BE3 /* Pods-SwiftBaiduMapDemo.debug.xcconfig */,
+				8F47AB0F9DFFAEDCB45A6712 /* Pods-SwiftBaiduMapDemo.release.xcconfig */,
+				7AD9CBD8B7612BBA020F1BBB /* Pods-SwiftBaiduMapDemoTests.debug.xcconfig */,
+				0C8D65AA0D10DA6B7B3E01C1 /* Pods-SwiftBaiduMapDemoTests.release.xcconfig */,
+				47D0F669B74479B4B7C58638 /* Pods-SwiftBaiduMapDemoUITests.debug.xcconfig */,
+				E7B519B7BA4DFA81F7802051 /* Pods-SwiftBaiduMapDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34B487FC1FC695BE0039A540 /* SwiftBaiduMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B488251FC695BE0039A540 /* Build configuration list for PBXNativeTarget "SwiftBaiduMapDemo" */;
+			buildPhases = (
+				DAEE2B5F1E83EA3578E8F0A0 /* [CP] Check Pods Manifest.lock */,
+				34B487F91FC695BE0039A540 /* Sources */,
+				34B487FA1FC695BE0039A540 /* Frameworks */,
+				34B487FB1FC695BE0039A540 /* Resources */,
+				65AC182DCEE6E9DFDA8D94C9 /* [CP] Embed Pods Frameworks */,
+				9EFE5BDE6F544FC100BD637B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftBaiduMapDemo;
+			productName = SwiftBaiduMapDemo;
+			productReference = 34B487FD1FC695BE0039A540 /* SwiftBaiduMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34B488101FC695BE0039A540 /* SwiftBaiduMapDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B488281FC695BE0039A540 /* Build configuration list for PBXNativeTarget "SwiftBaiduMapDemoTests" */;
+			buildPhases = (
+				BC8F4E7DA7B195F787AE84B2 /* [CP] Check Pods Manifest.lock */,
+				34B4880D1FC695BE0039A540 /* Sources */,
+				34B4880E1FC695BE0039A540 /* Frameworks */,
+				34B4880F1FC695BE0039A540 /* Resources */,
+				E0A9AFA363EB1F8CFB2CA3FA /* [CP] Embed Pods Frameworks */,
+				8DF796BD0FF8B831A58BB8CB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B488131FC695BE0039A540 /* PBXTargetDependency */,
+			);
+			name = SwiftBaiduMapDemoTests;
+			productName = SwiftBaiduMapDemoTests;
+			productReference = 34B488111FC695BE0039A540 /* SwiftBaiduMapDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34B4881B1FC695BE0039A540 /* SwiftBaiduMapDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B4882B1FC695BE0039A540 /* Build configuration list for PBXNativeTarget "SwiftBaiduMapDemoUITests" */;
+			buildPhases = (
+				976369BFF7326E2433F338FA /* [CP] Check Pods Manifest.lock */,
+				34B488181FC695BE0039A540 /* Sources */,
+				34B488191FC695BE0039A540 /* Frameworks */,
+				34B4881A1FC695BE0039A540 /* Resources */,
+				351DE44242C9E2A2C1C1F5B3 /* [CP] Embed Pods Frameworks */,
+				B1230CB49E395E0CBB903E89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B4881E1FC695BE0039A540 /* PBXTargetDependency */,
+			);
+			name = SwiftBaiduMapDemoUITests;
+			productName = SwiftBaiduMapDemoUITests;
+			productReference = 34B4881C1FC695BE0039A540 /* SwiftBaiduMapDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34B487F51FC695BE0039A540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = R.S;
+				TargetAttributes = {
+					34B487FC1FC695BE0039A540 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					34B488101FC695BE0039A540 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34B487FC1FC695BE0039A540;
+					};
+					34B4881B1FC695BE0039A540 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34B487FC1FC695BE0039A540;
+					};
+				};
+			};
+			buildConfigurationList = 34B487F81FC695BE0039A540 /* Build configuration list for PBXProject "SwiftBaiduMapDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34B487F41FC695BE0039A540;
+			productRefGroup = 34B487FE1FC695BE0039A540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34B487FC1FC695BE0039A540 /* SwiftBaiduMapDemo */,
+				34B488101FC695BE0039A540 /* SwiftBaiduMapDemoTests */,
+				34B4881B1FC695BE0039A540 /* SwiftBaiduMapDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34B487FB1FC695BE0039A540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B4880B1FC695BE0039A540 /* LaunchScreen.storyboard in Resources */,
+				34B488081FC695BE0039A540 /* Assets.xcassets in Resources */,
+				34B488061FC695BE0039A540 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B4880F1FC695BE0039A540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B4881A1FC695BE0039A540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		351DE44242C9E2A2C1C1F5B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBaiduMapDemoUITests/Pods-SwiftBaiduMapDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65AC182DCEE6E9DFDA8D94C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBaiduMapDemo/Pods-SwiftBaiduMapDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF796BD0FF8B831A58BB8CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBaiduMapDemoTests/Pods-SwiftBaiduMapDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		976369BFF7326E2433F338FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftBaiduMapDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EFE5BDE6F544FC100BD637B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBaiduMapDemo/Pods-SwiftBaiduMapDemo-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBaiduMapDemo/Pods-SwiftBaiduMapDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1230CB49E395E0CBB903E89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBaiduMapDemoUITests/Pods-SwiftBaiduMapDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC8F4E7DA7B195F787AE84B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftBaiduMapDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAEE2B5F1E83EA3578E8F0A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftBaiduMapDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0A9AFA363EB1F8CFB2CA3FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftBaiduMapDemoTests/Pods-SwiftBaiduMapDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34B487F91FC695BE0039A540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B488301FC69BE40039A540 /* SimpleMapViewController.swift in Sources */,
+				34B488031FC695BE0039A540 /* ViewController.swift in Sources */,
+				34B488011FC695BE0039A540 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B4880D1FC695BE0039A540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B488161FC695BE0039A540 /* SwiftBaiduMapDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B488181FC695BE0039A540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B488211FC695BE0039A540 /* SwiftBaiduMapDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34B488131FC695BE0039A540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B487FC1FC695BE0039A540 /* SwiftBaiduMapDemo */;
+			targetProxy = 34B488121FC695BE0039A540 /* PBXContainerItemProxy */;
+		};
+		34B4881E1FC695BE0039A540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B487FC1FC695BE0039A540 /* SwiftBaiduMapDemo */;
+			targetProxy = 34B4881D1FC695BE0039A540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34B488041FC695BE0039A540 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B488051FC695BE0039A540 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34B488091FC695BE0039A540 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B4880A1FC695BE0039A540 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34B488231FC695BE0039A540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34B488241FC695BE0039A540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34B488261FC695BE0039A540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6C500CE44E3C79C4D75BE3 /* Pods-SwiftBaiduMapDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHQ5WDNWKL;
+				INFOPLIST_FILE = SwiftBaiduMapDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSBaiDuMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftBaiduMapDemo/SwiftBaiduMapDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34B488271FC695BE0039A540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F47AB0F9DFFAEDCB45A6712 /* Pods-SwiftBaiduMapDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHQ5WDNWKL;
+				INFOPLIST_FILE = SwiftBaiduMapDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSBaiDuMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftBaiduMapDemo/SwiftBaiduMapDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34B488291FC695BE0039A540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD9CBD8B7612BBA020F1BBB /* Pods-SwiftBaiduMapDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHQ5WDNWKL;
+				INFOPLIST_FILE = SwiftBaiduMapDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.SwiftBaiduMapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBaiduMapDemo.app/SwiftBaiduMapDemo";
+			};
+			name = Debug;
+		};
+		34B4882A1FC695BE0039A540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8D65AA0D10DA6B7B3E01C1 /* Pods-SwiftBaiduMapDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHQ5WDNWKL;
+				INFOPLIST_FILE = SwiftBaiduMapDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.SwiftBaiduMapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBaiduMapDemo.app/SwiftBaiduMapDemo";
+			};
+			name = Release;
+		};
+		34B4882C1FC695BE0039A540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D0F669B74479B4B7C58638 /* Pods-SwiftBaiduMapDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHQ5WDNWKL;
+				INFOPLIST_FILE = SwiftBaiduMapDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.SwiftBaiduMapDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftBaiduMapDemo;
+			};
+			name = Debug;
+		};
+		34B4882D1FC695BE0039A540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B519B7BA4DFA81F7802051 /* Pods-SwiftBaiduMapDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHQ5WDNWKL;
+				INFOPLIST_FILE = SwiftBaiduMapDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.SwiftBaiduMapDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftBaiduMapDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34B487F81FC695BE0039A540 /* Build configuration list for PBXProject "SwiftBaiduMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B488231FC695BE0039A540 /* Debug */,
+				34B488241FC695BE0039A540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B488251FC695BE0039A540 /* Build configuration list for PBXNativeTarget "SwiftBaiduMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B488261FC695BE0039A540 /* Debug */,
+				34B488271FC695BE0039A540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B488281FC695BE0039A540 /* Build configuration list for PBXNativeTarget "SwiftBaiduMapDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B488291FC695BE0039A540 /* Debug */,
+				34B4882A1FC695BE0039A540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B4882B1FC695BE0039A540 /* Build configuration list for PBXNativeTarget "SwiftBaiduMapDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B4882C1FC695BE0039A540 /* Debug */,
+				34B4882D1FC695BE0039A540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34B487F51FC695BE0039A540 /* Project object */;
+}
