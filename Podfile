@@ -4,7 +4,7 @@
 target 'RSBaiDuMapDemo' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
-  pod 'BaiduMapKit' #百度地图SDK
+  pod 'BaiduMapKit', '~> 3.4.2' #百度地图SDK
   # Pods for RSBaiDuMapDemo
 
   target 'RSBaiDuMapDemoTests' do
