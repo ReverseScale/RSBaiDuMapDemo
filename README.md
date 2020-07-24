@@ -9,7 +9,7 @@
 
 | 名称 |1.列表页 |2.简单地图页 |3.调用客户端页 |4.路径规划页 |5.运动轨迹页 |6.范围点聚合页 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-13/15419776.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-13/86541690.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-13/31815488.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-13/58075230.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-13/87902806.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-13/46447791.jpg) |
+| 截图 | ![](https://s1.ax1x.com/2020/07/24/UX6Tn1.png) | ![](https://s1.ax1x.com/2020/07/24/UX6qAK.png) | ![](https://s1.ax1x.com/2020/07/24/UX670x.png) | ![](https://s1.ax1x.com/2020/07/24/UX6LtO.png) | ![](https://s1.ax1x.com/2020/07/24/UX6H76.png) | ![](https://s1.ax1x.com/2020/07/24/UX6OhD.png) |
 | 描述 | 通过 storyboard 搭建基本框架 | 基本展示功能 | 常用跳转功能 | 基本导航功能 | 动态轨迹动画 | 图层和打点功能 |
 
 ## Advantage 框架的优势
